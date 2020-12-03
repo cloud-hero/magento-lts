@@ -21,4 +21,4 @@ RUN curl -sSk https://getcomposer.org/installer | php -- --disable-tls && \
 
 RUN cd /codebase && composer install
 
-CMD ["php-fpm", "-F"]%
+CMD ["php-fpm", "-F"]
